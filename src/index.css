@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+.text-gold {
+  color: #D4AF37;
+}
+
+.bg-gold {
+  background-color: #D4AF37;
+}
+
+.border-gold {
+  border-color: #D4AF37;
+}
+
+/* Swiper customization */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #D4AF37 !important;
+}
+
+.swiper-pagination-bullet {
+  background: #D4AF37 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #D4AF37 !important;
+}
