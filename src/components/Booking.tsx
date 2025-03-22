@@ -48,13 +48,13 @@ const Booking = () => {
                 <div className="relative rounded-[2.5rem] shadow-xl overflow-hidden bg-black">
                   <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-transparent z-10"></div>
                   <img 
-                    src="public/images/logo/phone.png"
+                    src="/images/logo/phone.png"
                     alt="App Background"
                     className="w-full h-full object-cover opacity-50"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-start p-8 z-20">
                     <img 
-                      src="public/images/logo/logoblack.jpg"
+                      src="/images/logo/logoblack.jpg"
                       alt="Studio MN Logo"
                       className="w-32 mb-4"
                     />
@@ -71,7 +71,7 @@ const Booking = () => {
                 <div className="relative rounded-[2.5rem] shadow-xl overflow-hidden bg-black w-full max-w-[250px]">
                   <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-transparent z-10"></div>
                   <img 
-                    src="public/images/logo/logostudiomn.ico"
+                    src="/images/logo/logostudiomn.ico"
                     alt="App Background 2"
                     className="w-full h-full object-cover opacity-50"
                   />

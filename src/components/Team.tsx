@@ -5,13 +5,13 @@ const Team = () => {
     {
       name: 'Marcelo',
       role: 'Barbeiro',
-      image: 'public/images/team/marcelo.jpg',
+      image: '/images/team/marcelo.jpg',
       description: 'Especialista em cortes masculinos modernos e design de barba, com mais de 10 anos de experiência.'
     },
     {
       name: 'Nayara',
       role: 'Designer de Sobrancelhas & Maquiadora',
-      image: 'public/images/team/nayara.jpg',
+      image: '/images/team/nayara.jpg',
       description: 'Profissional especializada em design de sobrancelhas e maquiagem profissional para todas as ocasiões.'
     }
   ];
